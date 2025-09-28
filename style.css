@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightpink;
+    color: black;
+}
+header {
+    background-color: dimgray;
+    color: black;
+    padding: 1cm;
+    text-align: center;
+}
+ nav{
+    background-color: darkgray;
+    color: crimson;
+    padding: 0.5cm;
+    text-align: center;
+ }
+ nav li{
+    margin: 0 15px;
+ }
+nav a{
+    color: rgb(255, 105, 243);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: beige;
+    color: crimson;
+    border-radius: 5px;
+}
+form{
+
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+input, textarea, select {
+  border-radius: 20px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.hero {
+  background: url('img/hero.jpg') center/cover no-repeat; 
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.hero a.button {
+  background: #007BFF;
+  padding: 12px 25px;
+  color: #5f555f;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero a.button:hover {
+  background: #0056b3;
+}
+/* ===== FOOTER GENERAL STYLES ===== */
+.site-footer {
+  background-color: #645964;       /* dark brand color */
+  color: #fff;
+  font-size: 0.9rem;
+  padding-top: 40px;
+  margin-top: 60px;               /* push footer away from content */
+}
+
+/* container inside footer */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px 40px 20px;
+}
+
+.footer-container h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #ffdfdf; /* lighter accent color */
+}
+
+.footer-container p,
+.footer-container li {
+  line-height: 1.6;
+}
+
+/* lists of links */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #ffd6d6;
+}
+
+/* contact section */
+.footer-contact a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* social icons */
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1); /* makes dark icons appear white */
+}
+.social-icons img:hover {
+  opacity: 0.8;
+}
+
+/* bottom bar */
+.footer-bottom {
+  border-top: 1px solid rgb(146, 123, 148);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.8rem;
+  background-color: #645860; /* slightly darker strip at bottom */
+}
